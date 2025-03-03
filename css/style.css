@@ -11,6 +11,9 @@
     font-style: normal;
 }
 
+div {
+    font-style: italic;
+}
 
 body {
 
@@ -28,12 +31,12 @@ header {
     background-color: #592723;
     border: 1px solid black;
     padding: 15px;
-    margin-top: 8px;
+    margin-top: 5px;
 
 }
 
 #coffeeImage {
-    align-self: left;
+    margin-left: 80px;
 }
 
 h1 {
@@ -41,7 +44,7 @@ h1 {
     color: #D9C196;
     font-family: "Delius Swash Caps";
     font-style: bold;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 
@@ -60,7 +63,7 @@ h1 {
 #message {
     font-size: 35px;
     font-family: "Delius Swash Caps";
-    margin-top: -720px;
+    margin-top: -850px;
     margin-bottom: 0;
     font-style: italic;
     align-items: flex-start;
@@ -70,7 +73,7 @@ h1 {
     width: 710px;
     height: 50px;
     text-align: center;
-    color: #D9C196;
+    color: #BF665E;
 
 }
 
