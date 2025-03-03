@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/app.js"></script>
+    <title>Sudoku</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Good Morning, Sudoku!</h1>
+
+    </header>
+
+
+    <section id="boardBody">
+
+
+
+        <ul id="instructions">
+            <li>The goal of Sudoku is to fill a 9 by 9 grid of squares.</li>
+
+            <li>Each square, column, and row should contain the numbers 1 through 9.</li>
+
+            <li>Several numbers have already been filled in. </li>
+            <li>Use a process of elimination (in addition to a nice
+                cup of coffee) to determine the
+                placement of the remaining numbers.</li>
+            <img src="coffee-cup.jpg" alt="coffee cup" id="coffeeImage" width="70" height="70" />
+        </ul>
+
+        <h2 id="message">Message Here!</h2>
+        <section id="board">
+            <section id="game-board">
+                <section class="square" id="squareA">
+                    <div class="cellA cell" id="A0"></div>
+                    <div class="cellA cell" id="A1"></div>
+                    <div class="cellA cell" id="A2"></div>
+                    <div class="cellA cell" id="A3"></div>
+                    <div class="cellA cell" id="A4"></div>
+                    <div class="cellA cell" id="A5"></div>
+                    <div class="cellA cell" id="A6"></div>
+                    <div class="cellA cell" id="A7"></div>
+                    <div class="cellA cell" id="A8"></div>
+                </section>
+                <section class="square" id="squareB">
+                    <div class="cellB cell" id="B0"></div>
+                    <div class="cellB cell" id="B1"></div>
+                    <div class="cellB cell" id="B2"></div>
+                    <div class="cellB cell" id="B3"></div>
+                    <div class="cellB cell" id="B4"></div>
+                    <div class="cellB cell" id="B5"></div>
+                    <div class="cellB cell" id="B6"></div>
+                    <div class="cellB cell" id="B7"></div>
+                    <div class="cellB cell" id="B8"></div>
+                </section>
+                <section class="square" id="squareC">
+                    <div class="cellC cell" id="C0"></div>
+                    <div class="cellC cell" id="C1"></div>
+                    <div class="cellC cell" id="C2"></div>
+                    <div class="cellC cell" id="C3"></div>
+                    <div class="cellC cell" id="C4"></div>
+                    <div class="cellC cell" id="C5"></div>
+                    <div class="cellC cell" id="C6"></div>
+                    <div class="cellC cell" id="C7"></div>
+                    <div class="cellC cell" id="C8"></div>
+                </section>
+                <section class="square" id="squareD">
+                    <div class="cellD cell" id="D0"></div>
+                    <div class="cellD cell" id="D1"></div>
+                    <div class="cellD cell" id="D2"></div>
+                    <div class="cellD cell" id="D3"></div>
+                    <div class="cellD cell" id="D4"></div>
+                    <div class="cellD cell" id="D5"></div>
+                    <div class="cellD cell" id="D6"></div>
+                    <div class="cellD cell" id="D7"></div>
+                    <div class="cellD cell" id="D8"></div>
+                </section>
+                <section class="square" id="squareE">
+                    <div class="cellE cell" id="E0"></div>
+                    <div class="cellE cell" id="E1"></div>
+                    <div class="cellE cell" id="E2"></div>
+                    <div class="cellE cell" id="E3"></div>
+                    <div class="cellE cell" id="E4"></div>
+                    <div class="cellE cell" id="E5"></div>
+                    <div class="cellE cell" id="E6"></div>
+                    <div class="cellE cell" id="E7"></div>
+                    <div class="cellE cell" id="E8"></div>
+                </section>
+                <section class="square" id="squareF">
+                    <div class="cellF cell" id="F0"></div>
+                    <div class="cellF cell" id="F1"></div>
+                    <div class="cellF cell" id="F2"></div>
+                    <div class="cellF cell" id="F3"></div>
+                    <div class="cellF cell" id="F4"></div>
+                    <div class="cellF cell" id="F5"></div>
+                    <div class="cellF cell" id="F6"></div>
+                    <div class="cellF cell" id="F7"></div>
+                    <div class="cellF cell" id="F8"></div>
+                </section>
+                <section class="square" id="squareG">
+                    <div class="cellG cell" id="G0"></div>
+                    <div class="cellG cell" id="G1"></div>
+                    <div class="cellG cell" id="G2"></div>
+                    <div class="cellG cell" id="G3"></div>
+                    <div class="cellG cell" id="G4"></div>
+                    <div class="cellG cell" id="G5"></div>
+                    <div class="cellG cell" id="G6"></div>
+                    <div class="cellG cell" id="G7"></div>
+                    <div class="cellG cell" id="G8"></div>
+                </section>
+                <section class="square" id="squareH">
+                    <div class="cellH cell" id="H0"></div>
+                    <div class="cellH cell" id="H1"></div>
+                    <div class="cellH cell" id="H2"></div>
+                    <div class="cellH cell" id="H3"></div>
+                    <div class="cellH cell" id="H4"></div>
+                    <div class="cellH cell" id="H5"></div>
+                    <div class="cellH cell" id="H6"></div>
+                    <div class="cellH cell" id="H7"></div>
+                    <div class="cellH cell" id="H8"></div>
+                </section>
+                <section class="square" id="squareI">
+                    <div class="cellI cell" id="I0"></div>
+                    <div class="cellI cell" id="I1"></div>
+                    <div class="cellI cell" id="I2"></div>
+                    <div class="cellI cell" id="I3"></div>
+                    <div class="cellI cell" id="I4"></div>
+                    <div class="cellI cell" id="I5"></div>
+                    <div class="cellI cell" id="I6"></div>
+                    <div class="cellI cell" id="I7"></div>
+                    <div class="cellI cell" id="I8"></div>
+                </section>
+            </section>
+        </section>
+        <section id="numberRow">
+            <button class="numBtn" type="button" id="1">1</button>
+            <button class="numBtn" type="button" id="2">2</button>
+            <button class="numBtn" type="button" id="3">3</button>
+            <button class="numBtn" type="button" id="4">4</button>
+            <button class="numBtn" type="button" id="5">5</button>
+            <button class="numBtn" type="button" id="6">6</button>
+            <button class="numBtn" type="button" id="7">7</button>
+            <button class="numBtn" type="button" id="8">8</button>
+            <button class="numBtn" type="button" id="9">9</button>
+        </section>
+        <section id="rightColumn">
+            <button class="undoBtn">Undo</button>
+            <button class="hintBtn">Hint</button>
+            <button class="button" type="button">Reset</button>
+        </section>
+    </section>
+
+</body>
