@@ -193,5 +193,7 @@ resetBtnEl.addEventListener('click', () => {
     cell4ls.forEach(cell => cell.classList.remove('highlight'))
 
 });
+
+
 init()
 
