@@ -10,6 +10,8 @@ This game requires the user to fill a 9 by 9 grid of squares by using the number
 
 #### Instructions:
 
+[Link to Deployed Project](https://kyliebeck.github.io/Sudoku-Project/)
+
 #### Code Snippets:
 
 ```Javascript
