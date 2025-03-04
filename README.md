@@ -6,6 +6,7 @@ This game requires the user to fill a 9 by 9 grid of squares by using the number
 #### Technology Used:
 * Javascript
 * CSS
+* HTML
 
 #### Instructions:
 
