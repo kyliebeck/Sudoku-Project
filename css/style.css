@@ -43,7 +43,7 @@ header {
 h1 {
     text-align: center;
     color: #D9C196;
-    font-family: "Delius Swash Caps";
+    font-family: "Delius Swash Caps", sans sans-serif;
     font-style: bold;
     font-size: 45px;
 }
@@ -64,7 +64,7 @@ h1 {
 
 #message {
     font-size: 35px;
-    font-family: "Delius Swash Caps";
+    font-family: "Delius Swash Caps", sans-serif;
     margin-top: -730px;
     margin-bottom: 0;
     font-style: italic;
@@ -82,7 +82,7 @@ h1 {
 #instructions {
     display: flex;
     flex-direction: column;
-    font-family: "Outfit";
+    font-family: "Outfit", sans-serif;
     margin-top: 100px;
     margin-left: 30px;
     font-size: 20px;
@@ -133,7 +133,7 @@ h1 {
 .square .cell {
     font-size: 45px;
     text-align: center;
-    font-family: "Delius Swash Caps";
+    font-family: "Delius Swash Caps", sans-serif;
     padding: 10px 0;
     font-style: normal;
 }
@@ -154,7 +154,7 @@ h1 {
 .numBtn {
 
     font-size: 30px;
-    font-family: "Delius Swash Caps";
+    font-family: "Delius Swash Caps", sans-serif;
     width: 75px;
     height: 75px;
     background-color: #D9C196;
@@ -180,7 +180,7 @@ h1 {
     height: 60px;
     border-radius: .2px;
     font-size: 25px;
-    font-family: "Outfit";
+    font-family: "Outfit", sans-serif;
     background-color: #BF665E;
 }
 
