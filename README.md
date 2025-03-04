@@ -21,6 +21,7 @@ function updateBoard() {
 ```
 
 #### Future Plans:
+* Make website more mobile friendly
 * Randomize numbers in board to provide unlimited gameplay to user
 * Alert incorrect at individual moves
 * Notes, undo, solve implementation
