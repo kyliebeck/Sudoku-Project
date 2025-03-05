@@ -46,7 +46,7 @@ let messageText = "";
 //2) Store cached element references.
 const messageTextEl = document.getElementById('message');
 
-const cell4ls = document.querySelectorAll('.cell');
+const cellEls = document.querySelectorAll('.cell');
 const divSquare0Els = document.querySelectorAll('.cell0');
 const divSquare1Els = document.querySelectorAll('.cell1');
 const divSquare2Els = document.querySelectorAll('.cell2');
@@ -119,7 +119,7 @@ let selectedButtonId = null;
 numberButtons.forEach(button => {
     button.addEventListener('click', (event) => {
         selectedButtonId = event.target.id;
-        cell4ls.forEach(cell => {
+        cellEls.forEach(cell => {
             console.log("event.target.id", event.target.id)
             if (cell.textContent === event.target.id) {
                 cell.classList.add('highlight')
@@ -132,7 +132,7 @@ numberButtons.forEach(button => {
 });
 
 
-cell4ls.forEach(cell => {
+cellEls.forEach(cell => {
     cell.addEventListener('click', (event) => {
 
         if (selectedButtonId) {
@@ -180,17 +180,14 @@ function checkWin() {
             }
             // update messageText variable, this is the "state"
 
-            // else {
-            //     messageText = "Try Again"
-            // }
-            // render update to state
+
         })
     }
 }
 
 resetBtnEl.addEventListener('click', () => {
     init();
-    cell4ls.forEach(cell => cell.classList.remove('highlight'))
+    cellEls.forEach(cell => cell.classList.remove('highlight'))
 
 });
 
